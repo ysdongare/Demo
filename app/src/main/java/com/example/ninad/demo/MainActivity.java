@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         spinner1.setAdapter(dataAdapter);
         spinner1.setOnItemSelectedListener(this);
 
-
+//clear button
         cbtn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

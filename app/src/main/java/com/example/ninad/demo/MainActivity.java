@@ -71,9 +71,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 .build();
 
         mAutocompleteTextView.setOnItemClickListener(mAutocompleteClickListener);
-        mPlaceArrayAdapter = new PlaceArrayAdapter(this, android.R.layout.simple_list_item_1,
-                BOUNDS_MOUNTAIN_VIEW, null);
-        mAutocompleteTextView.setAdapter(mPlaceArrayAdapter);
+        //mPlaceArrayAdapter = new PlaceArrayAdapter(this, android.R.layout.simple_list_item_1,
+          //      BOUNDS_MOUNTAIN_VIEW, null);
+       // mAutocompleteTextView.setAdapter(mPlaceArrayAdapter);
 
 
         cbtn1 = (Button) findViewById(R.id.clear_btn1);
